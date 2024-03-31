@@ -1,0 +1,1639 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+.home_page_acs{
+width:100%;
+height:100%;
+
+}
+
+.heading_line{
+width:100%;
+height:9%;
+display:flex;
+position:fixed;
+background-color:white;
+margin-top:-0.7vw;
+  z-index: 1;
+}
+
+.acs_logo{
+width:15%;
+height:80%;
+margin-left:5.5%;
+display:flex;
+margin-top:0.7%;
+
+}
+
+.acs_logo_pic{
+width:35%;
+height:100%;
+
+
+}
+
+.acs_logo_acsconsulting{
+width:65%;
+height:100%;
+display:flex;
+flex-direction:column;
+}
+
+
+.acs_logo_acs{
+width:90%;
+height:60%;
+font-family:Anta;
+font-size: 5.5vh;
+font-style:bold;
+color:#04145E;
+}
+
+.acs_logo_consulting{
+width:50%;
+height:auto;
+font-family:calibri;
+color:#04145E;
+font-style:bold;
+font-size:1.4vh;
+letter-spacing:0.35vw;
+}
+
+.acs_logo_picc{
+width:100%;
+height:100%;
+}
+
+.menu_bar_acs{
+width:79%;
+height:100%;
+}
+
+.menu_bar{
+width:60%;
+height:85%;
+margin-top:0.2%;
+margin-left:40%;
+display:flex;
+flex-direction:row;
+}
+
+
+.menu1{
+width:14%;
+height:60%;
+font-size:1.6vw;
+font-family:calibri;
+font-weight:bold;
+padding-top:3.5%;
+padding-left:1%;
+padding-right:1%;
+}
+
+.menu1:hover{
+border-bottom-style: solid;
+border-color:#0523B1;
+border-width:0.3vw;
+}
+
+.menu2:hover{
+border-bottom-style: solid;
+border-color:#0523B1;
+border-width:0.3vw;
+}
+
+.menu3:hover{
+border-bottom-style: solid;
+border-color:#0523B1;
+border-width:0.3vw;
+}
+
+.menu4:hover{
+border-bottom-style: solid;
+border-color:#0523B1;
+border-width:0.3vw;
+}
+
+.menu5:hover{
+border-bottom-style: solid;
+border-color:#0523B1;
+border-width:0.3vw;
+}
+
+.menu2{
+width:16%;
+height:60%;
+font-size:1.6vw;
+font-family:calibri;
+font-weight:bold;
+padding-top:3.5%;
+padding-left:1%;
+padding-right:1%;
+}
+
+.menu3{
+width:21%;
+height:60%;
+font-size:1.6vw;
+font-family:calibri;
+font-weight:bold;
+padding-top:3.5%;
+padding-left:1%;
+padding-right:1%;
+}
+
+.menu4{
+width:11%;
+height:60%;
+font-size:1.6vw;
+font-family:calibri;
+font-weight:bold;
+padding-top:3.5%;
+padding-left:1%;
+padding-right:1%;
+}
+
+.menu5{
+width:14%;
+height:60%;
+font-size:1.6vw;
+font-family:calibri;
+font-weight:bold;
+padding-top:3.5%;
+padding-left:1%;
+padding-right:1%;
+}
+
+.menu6{
+width:16%;
+height:60%;
+font-size:1.6vw;
+font-family:calibri;
+font-weight:bold;
+padding-top:3.5%;
+padding-left:1%;
+padding-right:1%;
+}
+
+.search{
+width:27%;
+height:47%;
+margin-top:5%;
+}
+
+.search_logo_picc{
+width:100%;
+height:100%;
+}
+
+.menu_bar_option{
+width:6%;
+height:65%;
+margin-left:55%;
+padding:1%;
+margin-top:0.4%;
+display:none;
+}
+
+.dropdown_content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.matter_acs{
+width:100%;
+height:100%;
+background-image:url(loc2.jpg);
+background-attachment: fixed;
+}
+
+.mySlides{
+width:45%;
+height:40%;
+font-family:Anta;
+font-size:4vw;
+color:white;
+padding-left:6%;
+padding-top:23.5%;
+
+}
+
+.mySlides_matter{
+width:100%;
+height:49%;
+
+}
+
+.mySlides_matter {
+  animation: mySlides_matter 2s ease ;
+  animation-iteration-count:1;
+}
+
+@keyframes mySlides_matter {
+  0% {
+    opacity: 0;
+    transform: translateX(120px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(-30px);
+  }
+  80% { transform: translateX(10px); }
+  100% { transform: translateX(0); }
+}
+
+.mySlides_short{
+width:100%;
+height:20%;
+font-family:calibri;
+font-size:1.65vw;
+color:white;
+margin-top:3%;
+
+}
+
+.mySlides_short{
+  animation: mySlides_short 2.5s ease ;
+    animation-iteration-count:1;
+}
+@keyframes mySlides_short {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.get_started{
+width:30%;
+height:12.4%;
+border:solid white 0.2vw;
+font-family:calibri;
+font-size:1.89vw;
+color:white;
+text-align:center;
+padding-top:2%;
+margin-top:1%;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+
+.get_started:hover, .get_started:focus, .get_started:active {
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.40);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.40);
+  background-color:#1192A9;
+border:solid #1192A9 0.2vw;
+}
+
+
+.second_page_acs{
+width:100%;
+height:65%;
+}
+
+
+.welcome_box_acs{
+width:88%;
+height:90%;
+padding-left:6%;
+padding-right:6%;
+display:flex;
+flex-direction:row;
+background-color:#E2F7FA;
+padding-top:5%;
+}
+
+.first_secondpic{
+width:50%;
+height:80%;
+display:flex;
+flex-direction:row;
+}
+
+.back_welcome_box_acs{
+width:85%;
+height:90%;
+margin-top:4%;
+background-image:url(cyber11.jpg);
+border-radius:2.4vh;
+}
+
+.front_welcome_box_acs{
+width:30%;
+height:35%;
+margin-top:50%;
+margin-left:-15%;
+border-radius:2vh;
+border-bottom-style: solid;
+border-right-style: solid;
+border-color:#08093b;
+border-width:0.2vw;
+}
+
+.front_pic{
+width:100%;
+height:100%;
+border-radius:2vh;
+}
+
+.welcome_box_matter{
+width:45%;
+height:80%;
+margin-left:6%;
+margin-top:2%;
+font-family:calibri;
+font-size:1.4vw;
+font-weight:bold;
+transition: all ease-in-out 0.3s;
+}
+
+.welcome{
+font-family:Anta;
+font-size:3vw;
+color:#070B4D ;
+}
+
+.learn_more{
+width:24%;
+height:12%;
+margin-top:2%;
+margin-left:2%;
+font-family:calibri;
+font-size:1.2vw;
+font-weight:bold;
+background-color:#1192A9;
+color:white;
+border:none;
+border-radius:2vh;
+
+
+}
+
+
+
+
+
+.learn_more {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.learn_more:hover, .learn_more:focus, .learn_more:active {
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.40);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.40);
+}
+
+
+.third_page_acs{
+width:100%;
+height:auto;
+margin-top:2%;
+
+
+}
+
+.our_services{
+width:30%;
+height:10%;
+margin-left:35%;
+font-size:3.1vw;
+font-family:anta;
+text-align:center;
+font-weight:bold;
+color:#070B4D ;
+margin-top:5%;
+}
+
+.third_two_box{
+width:100%;
+height:auto;
+}
+
+.third_two_box_first{
+width:90%;
+height:56%;
+display:flex;
+flex-direction:row;
+margin-top:1%;
+padding-left:6%;
+}
+
+.third_two_box_second{
+width:90%;
+height:56%;
+display:flex;
+flex-direction:row;
+padding-left:6%;
+}
+
+.third_boxes{
+width:25%;
+height:90%;
+margin-left:2%;
+padding-left:2%;
+padding-right:2%;
+font-size:1.5vw;
+font-family:calibri;
+text-align:center;
+border-radius:2.5vh;
+color:#06103D;
+transition: all ease-in-out 0.3s;
+  box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+}
+
+.third_boxes:hover{
+background-color:#051148 ;
+color:white;
+margin-top:1%;
+
+}
+
+.box_image{
+width:30%;
+height:22%;
+margin-left:35%;
+margin-top:4%;
+}
+
+.box_matter{
+width:100%;
+height:auto;
+font-size:2.3vw;
+font-family:anta;
+text-align:center;
+margin-top:4%;
+
+}
+
+.box_images{
+width:100%;
+height:100%;
+}
+
+.Fourth_page{
+width:100%;
+height:44%;
+color:white;
+display:flex;
+flex-direction:row;
+background-image:url(lock23.jpg);
+background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Fourth_page_page{
+width:40%;
+height:100%;
+margin-left:53%;
+}
+
+
+.Fourth_page_headlinematter{
+width:100%;
+height:20%;
+font-size:3.1vw;
+font-family:anta;
+text-align:center;
+font-weight:bold;
+color:white ;
+margin-top:11%;
+
+}
+
+
+.Fourth_page_matter{
+width:100%;
+height:33%;
+padding-top:1%;
+font-size:1.5vw;
+font-family:calibri;
+text-align:center;
+font-weight:bold;
+
+
+}
+
+.Fourth_page_matter {
+  animation: Fourth_page_matter 2s ease ;
+  animation-iteration-count:1;
+}
+
+@keyframes Fourth_page_matter {
+  0% {
+    opacity: 0;
+    transform: translateX(-80px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(30px);
+  }
+  80% { transform: translateX(-10px); }
+  100% { transform: translateX(0); }
+}
+
+
+
+
+.dots {
+  height: 15px;
+  width: 15px;
+  margin: 0.1%;
+  background-color: #515A5A ;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+
+  
+
+}
+
+.active {
+  background-color: white;
+  
+}
+
+
+
+
+
+.fivth_page{
+width:100%;
+height:auto;
+}
+
+.achievement_heading{
+width:100%;
+height:10%;
+margin-top:7%;
+font-size:3.3vw;
+font-family:anta;
+text-align:center;
+font-weight:bold;
+color:#070B4D ;
+
+}
+
+.fivth_page_bigbox{
+width:100%;
+height:90%;
+
+}
+
+.bigbox_nineboxes{
+width:86%;
+height:90%;
+margin-left:7%;
+display:flex;
+flex-direction:column;
+margin-top:1%;
+}
+
+.first_threeboxes{
+width:100%;
+height:33%;
+display:flex;
+flex-direction:row;
+}
+
+.box_box_img{
+width:33.1%;
+height:100%;
+}
+
+.box_box_matter{
+width:29%;
+height:81%;
+padding:2%;
+font-size:1.6vw;
+font-family:calibri;
+text-align:center;
+font-weight:bold;
+color:black;
+  box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+}
+.box_box_matter :hover{
+box-shadow: 0px 4px 20px rgba(0,0,0,.25);
+transform: scale(1.05) ;
+background-color:rgb(155, 200, 255);
+}
+
+a:link {
+  text-decoration: none;
+   color:black;
+}
+
+a:visited {
+  text-decoration: none;
+  color:black;
+}
+
+a:hover {
+  text-decoration: none;
+   color:black;
+}
+
+a:active {
+  text-decoration: none;
+   color:black;
+}
+
+
+
+
+@media only screen and (max-width: 600px){
+.home_page_acs{
+width:100%;
+height:85%;
+
+}
+
+.heading_line{
+width:100%;
+height:9%;
+display:flex;
+position:fixed;
+background-color:white;
+margin-top:-2%;
+
+}
+
+.acs_logo{
+width:23%;
+height:77%;
+margin-left:6%;
+display:flex;
+margin-top:2%;
+
+}
+
+
+
+.acs_logo_picc{
+width:100%;
+height:100%;
+
+}
+
+.menu_bar_acs{
+width:79%;
+height:100%;
+display:none;
+}
+
+.menu_bar{
+width:60%;
+height:85%;
+margin-top:0.2%;
+margin-left:40%;
+display:flex;
+flex-direction:row;
+}
+
+
+.menu1{
+width:14%;
+height:60%;
+font-size:1.6vw;
+font-family:calibri;
+font-weight:bold;
+padding-top:3.5%;
+padding-left:1%;
+padding-right:1%;
+
+}
+
+.menu1:hover{
+border-bottom-style: solid;
+border-color:#0523B1;
+border-width:0.3vw;
+
+}
+
+.menu2:hover{
+border-bottom-style: solid;
+border-color:#0523B1;
+border-width:0.3vw;
+}
+
+.menu3:hover{
+border-bottom-style: solid;
+border-color:#0523B1;
+border-width:0.3vw;
+}
+
+.menu4:hover{
+border-bottom-style: solid;
+border-color:#0523B1;
+border-width:0.3vw;
+}
+
+.menu5:hover{
+border-bottom-style: solid;
+border-color:#0523B1;
+border-width:0.3vw;
+}
+
+.menu2{
+width:16%;
+height:60%;
+font-size:1.6vw;
+font-family:calibri;
+font-weight:bold;
+padding-top:3.5%;
+padding-left:1%;
+padding-right:1%;
+
+}
+
+.menu3{
+width:21%;
+height:60%;
+font-size:1.6vw;
+font-family:calibri;
+font-weight:bold;
+padding-top:3.5%;
+padding-left:1%;
+padding-right:1%;
+
+}
+
+.menu4{
+width:11%;
+height:60%;
+font-size:1.6vw;
+font-family:calibri;
+font-weight:bold;
+padding-top:3.5%;
+padding-left:1%;
+padding-right:1%;
+
+}
+
+.menu5{
+width:14%;
+height:60%;
+font-size:1.6vw;
+font-family:calibri;
+font-weight:bold;
+padding-top:3.5%;
+padding-left:1%;
+padding-right:1%;
+
+}
+
+.menu6{
+width:16%;
+height:60%;
+font-size:1.6vw;
+font-family:calibri;
+font-weight:bold;
+padding-top:3.5%;
+padding-left:1%;
+padding-right:1%;
+
+}
+
+.search{
+width:27%;
+height:47%;
+margin-top:5%;
+}
+
+.search_logo_picc{
+width:100%;
+height:100%;
+}
+
+.menu_bar_option{
+width:9%;
+height:63%;
+margin-left:53%;
+padding:1%;
+margin-top:0.9%;
+display:block;
+}
+
+.dropdown_content {
+display: none;
+position: absolute;
+background-color: #f1f1f1;
+width:40%;
+height:78%;
+overflow: auto;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+margin-left:55%;
+margin-top:8%;
+}
+
+.aa{
+width:90%;
+height:6%;
+font-family:anta;
+font-size:3.5vw;
+padding-left:7%;
+padding-top:4%;
+}
+
+.show {
+display: block;
+}
+
+
+.matter_acs{
+width:100%;
+height:100%;
+background-image:url(loc2.jpg);
+background-attachment: fixed;
+
+}
+
+.mySlides{
+width:82%;
+height:30%;
+font-family:Anta;
+font-size:6vw;
+color:white;
+text-align:center;
+
+}
+
+.mySlides_matter{
+width:80%;
+height:60%;
+padding-left:14%;
+padding-top:15%;
+}
+
+.mySlides_matter {
+  animation: mySlides_matter 2s ease ;
+  animation-iteration-count:1;
+}
+
+@keyframes mySlides_matter {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(-30px);
+  }
+  80% { transform: translateX(10px); }
+  100% { transform: translateX(0); }
+}
+
+.mySlides_short{
+width:80%;
+height:20%;
+font-family:calibri;
+font-size:2.7vw;
+color:white;
+text-align:center;
+padding-left:15%;
+
+
+}
+
+.mySlides_short{
+  animation: mySlides_short 2.5s ease ;
+    animation-iteration-count:1;
+}
+@keyframes mySlides_short {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.get_started{
+width:35%;
+height:16%;
+border:solid white 0.2vw;
+font-family:calibri;
+font-size:3.4vw;
+color:white;
+text-align:center;
+padding-top:1.5%;
+margin-top:1%;
+margin-left:10%;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+
+.get_started:hover, .get_started:focus, .get_started:active {
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.40);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.40);
+  background-color:#1192A9;
+border:solid #1192A9 0.2vw;
+}
+
+
+.second_page_acs{
+width:100%;
+height:80%;
+}
+
+
+.welcome_box_acs{
+width:88%;
+height:90%;
+padding-left:6%;
+padding-right:6%;
+display:flex;
+flex-direction:column;
+background-color:#E2F7FA;
+padding-top:5%;
+}
+
+.first_secondpic{
+width:100%;
+height:80%;
+display:flex;
+flex-direction:row;
+
+}
+
+.back_welcome_box_acs{
+width:95%;
+height:90%;
+margin-top:2%;
+background-image:url(cyber11.jpg);
+border-radius:2.4vh;
+margin-left:2%;
+}
+
+.front_welcome_box_acs{
+width:19%;
+height:30%;
+margin-top:24%;
+margin-left:-10%;
+border-radius:2vh;
+border-bottom-style: solid;
+border-right-style: solid;
+border-color:#08093b;
+border-width:0.2vw;
+display:none;
+}
+
+.front_pic{
+width:100%;
+height:100%;
+border-radius:2vh;
+}
+
+.welcome_box_matter{
+width:100%;
+height:80%;
+margin-left:0.3%;
+margin-top:2%;
+font-family:calibri;
+font-size:2vw;
+font-weight:bold;
+transition: all ease-in-out 0.3s;
+text-align:center;
+}
+
+.welcome{
+font-family:Anta;
+font-size:4vw;
+color:#070B4D ;
+text-align:center;
+}
+
+.learn_more{
+width:24%;
+height:15%;
+margin-top:2%;
+font-family:calibri;
+font-size:2.5vw;
+font-weight:bold;
+background-color:#1192A9;
+color:white;
+border:none;
+border-radius:2vh;
+}
+
+
+.learn_more {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.learn_more:hover, .learn_more:focus, .learn_more:active {
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.40);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.40);
+}
+
+
+.third_page_acs{
+width:100%;
+height:auto;
+margin-top:2%;
+
+
+}
+
+.our_services{
+width:30%;
+height:10%;
+margin-left:35%;
+font-size:4.5vw;
+font-family:anta;
+text-align:center;
+font-weight:bold;
+color:#070B4D ;
+margin-top:5%;
+}
+
+.third_two_box{
+width:100%;
+height:auto;
+}
+
+.third_two_box_first{
+width:90%;
+height:auto;
+display:flex;
+flex-direction:column;
+margin-top:1%;
+padding-left:6%;
+}
+
+.third_two_box_second{
+width:90%;
+height:auto;
+display:flex;
+flex-direction:column;
+padding-left:6%;
+}
+
+.third_boxes{
+width:90%;
+height:90%;
+margin-top:2%;
+margin-left:2%;
+padding-left:2%;
+padding-right:2%;
+padding-bottom:6%;
+font-size:2.3vw;
+font-family:calibri;
+text-align:center;
+border-radius:2.5vh;
+color:#06103D;
+transition: all ease-in-out 0.3s;
+  box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+}
+
+.third_boxes:hover{
+background-color:#051148 ;
+color:white;
+margin-top:1%;
+
+}
+
+.box_image{
+width:20%;
+height:20%;
+margin-left:40%;
+margin-top:4%;
+}
+
+.box_matter{
+width:100%;
+height:auto;
+font-size:3.9vw;
+font-family:anta;
+text-align:center;
+margin-top:4%;
+
+}
+
+.box_images{
+width:100%;
+height:100%;
+}
+
+.Fourth_page{
+width:100%;
+height:44%;
+color:white;
+display:flex;
+flex-direction:row;
+background-image:url(lock55.jpg);
+margin-top:8%;
+}
+
+.Fourth_page_page{
+width:40%;
+height:100%;
+margin-left:30%;
+}
+
+
+.Fourth_page_headlinematter{
+width:100%;
+height:20%;
+font-size:4.5vw;
+font-family:anta;
+text-align:center;
+font-weight:bold;
+color:white ;
+margin-top:20%;
+
+}
+
+
+.Fourth_page_matter{
+width:100%;
+height:33%;
+font-size:2.5vw;
+font-family:calibri;
+text-align:center;
+font-weight:bold;
+
+
+}
+
+.Fourth_page_matter {
+  animation: Fourth_page_matter 2s ease ;
+  animation-iteration-count:1;
+}
+
+@keyframes Fourth_page_matter {
+  0% {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(10px);
+  }
+  80% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+
+
+
+.dots {
+  height: 15px;
+  width: 15px;
+  margin: 0.1%;
+  background-color: #515A5A ;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dots_dots{
+margin-top:15%;
+}
+
+.active {
+  background-color: white;
+  
+}
+
+.fivth_page{
+width:100%;
+height:auto;
+}
+
+.achievement_heading{
+width:100%;
+height:10%;
+margin-top:9%;
+font-size:5vw;
+font-family:anta;
+text-align:center;
+font-weight:bold;
+color:#070B4D ;
+
+}
+
+.fivth_page_bigbox{
+width:100%;
+height:100%;
+
+}
+
+.bigbox_nineboxes{
+width:86%;
+height:100%;
+margin-left:7%;
+display:flex;
+flex-direction:column;
+margin-top:1%;
+}
+
+.first_threeboxes{
+width:100%;
+height:auto;
+display:flex;
+flex-direction:column;
+}
+
+.box_box_img{
+width:100%;
+height:100%;
+}
+
+.box_box_matter{
+width:80%;
+height:100%;
+padding:10%;
+font-size:3.5vw;
+font-family:calibri;
+text-align:center;
+font-weight:bold;
+color:black;
+box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+& :hover{
+  box-shadow: 0px 4px 20px rgba(0,0,0,.25);
+  transform: scale(1.05) ;
+  background-color:rgb(155, 200, 255);
+}
+}
+
+
+
+
+}
+
+
+</style>
+</head>
+
+<body>
+<p id="home_home"></p>
+<div class="home_page_acs">
+
+<div class="heading_line">
+
+<div class="acs_logo">
+<img class="acs_logo_picc" src="png.png">
+</div>
+
+<div class="menu_bar_acs">
+<div class="menu_bar">
+<div class="menu1"><a href="#home_home">Home</a></div>
+<div class="menu1"><a href="#about_about">About</a></div>
+<div class="menu2"><a href="#services_services">Services</a></div>
+<div class="menu3"><a href="#achievement_achievement">Achievement</a></div>
+<div class="menu4">Team</div>
+<div class="menu5">Contact</div>
+<div class="menu6"><div class="search"><img class="search_logo_picc" src="search.png"></div></div>
+
+</div>
+</div>
+
+<div class="menu_bar_option" onclick="myFunction()"><img class="acs_logo_picc" src="threeoption.jpg"></div>  
+
+</div>
+<div id="myDropdown" class="dropdown_content">
+    <div class="aa"><a href="#home_home">Home</a></div>
+    <div class="aa"><a href="#about_about">About</a></div>
+    <div class="aa"><a href="#services_services">Services</a></div>
+    <div class="aa"><a href="#achievement_achievement">Achievement</a></div>
+	 <div class="aa">Team</div>
+	  <div class="aa">Contact</div>
+  </div>
+
+<div class="matter_acs">
+<div class="matter_acs_matter">
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+
+<div class="mySlides_matter">
+The Future of Product
+Engineering is Convergence</div>
+<div class="mySlides_short">Secure your applications, before they are born</div>
+<div class="get_started">Get Started</div>
+</div>
+
+<div class="mySlides fade">
+
+<div class="mySlides_matter">
+Security Operations and Response Services</div>
+<div class="mySlides_short">Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks. </div>
+<div class="get_started">Get Started</div>
+</div>
+
+<div class="mySlides fade">
+
+<div class="mySlides_matter">
+Cyber resiliency and legacy asset modernization</div>
+<div class="mySlides_short">Do not fail into the vulnerability pit and ensure your crown jewels are secured</div>
+<div class="get_started">Get Started</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center" >
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  
+</div>
+</div>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+<div class="second_page_acs">
+<p id="about_about"></p>
+<div class="welcome_box_acs">
+<div class="first_secondpic">
+<div class="back_welcome_box_acs" data-aos="fade-left">
+</div>
+<div class="front_welcome_box_acs">
+<img class="front_pic" src="cyber2.jpg">
+</div>
+</div>
+<div class="welcome_box_matter" data-aos="fade-right">
+<h1 class="welcome">Welcome to <br>ACS Consulting</h1>
+In today's dynamic digital landscape, securing your valuable information and protecting your digital assets are paramount. Embrace absolute confidence and peace of mind with SecureIT Solutions, your trusted partner in Information Security, Cybersecurity, and Penetration Testing services.
+
+<br><br>
+<button class="learn_more">
+Learn More</button>
+<p id="services_services"></p>
+</div>
+</div>
+</div>
+
+
+
+
+
+<div class="third_page_acs">
+
+<div class="our_services">Our Services</div>
+
+<div class="third_two_box">
+
+<div class="third_two_box_first">
+
+<div class="third_boxes"><br>
+<div class="box_image"><img class="box_images" src="box111.webp"></div>
+<div class="box_matter">Information Security Consulting</div><br>
+Our expert consultants will fortify your organization's security posture with tailored strategies, empowering you to confidently navigate the digital landscape.
+
+</div>
+<div class="third_boxes"><br>
+<div class="box_image"><img class="box_images" src="box777.png"></div>
+<div class="box_matter">Cyber Security Solution </div><br>
+ Experience next-level cybersecurity with our state-of-the-art technologies, including advanced firewalls, real-time threat monitoring, and instant incident response.
+
+</div>
+<div class="third_boxes"><br>
+<div class="box_image"><img class="box_images" src="box999.png"></div>
+<div class="box_matter">Cybersecurity Compliance</div><br>
+Let us guide you through the labyrinth of cybersecurity regulations, ensuring you stay compliant with industry standards and boost your business reputation.
+
+</div>
+</div>
+
+<div class="third_two_box_second">
+
+<div class="third_boxes"><br>
+<div class="box_image"><img class="box_images" src="box666.png"></div>
+<div class="box_matter">Security Awareness Training</div><br>
+We empower your staff to be your first line of defense by providing comprehensive security awareness training, arming them with the knowledge to spot and thwart potential attacks.
+
+</div>
+
+
+<div class="third_boxes"><br>
+<div class="box_image"><img class="box_images" src="box12.png"></div>
+<div class="box_matter">Penetration Testing Services</div><br>
+ Stay one step ahead of potential threats with our meticulous ethical hackers, who reveal and remediate vulnerabilities before they become opportunities for malicious actors.
+
+</div>
+
+<div class="third_boxes"><br>
+<div class="box_image"><img class="box_images" src="box123.png"></div>
+<div class="box_matter"> SSDLC</div><br>
+The Secure Software Development Life Cycle (SSDLC) is a set of processes and activities that organizations follow to ensure that their software is developed with security in mind.
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+<div class="Fourth_page">
+
+<div class="Fourth_page_page">
+
+<div class="Fourth_page_headlinematter">Why Choose Us?</div>
+
+<div class="Fourth_page_matter">
+ Unparalleled Expertise: Our exceptional team of certified cybersecurity professionals brings years of industry expertise, ensuring you receive top-notch, cutting-edge solutions for all your security needs.
+
+</div>
+
+<div class="Fourth_page_matter">
+ Tailored for You: At SecureIT, we believe in delivering personalized solutions tailored precisely to your unique requirements and budget. Your safety is our priority, and we will craft a customized security strategy just for you.
+
+</div>
+
+<div class="Fourth_page_matter">
+ Empowering Your Defences: Proactivity is our mantra. Our proactive approach to identifying and addressing potential threats ensures that your digital fortress remains impregnable.
+
+</div>
+
+<div class="Fourth_page_matter">
+ Customer-Centric Focus: We place you, our valued client, at the center of everything we do. Clear communication, transparent processes, and responsive support are our commitments to delivering an unmatched experience.
+
+</div>
+
+<div class="Fourth_page_matter">
+ Confidentiality and Trust: Your confidentiality is sacrosanct to us. We uphold the strictest privacy standards, safeguarding your sensitive data as if it were our own.
+
+</div>
+
+
+
+<div style="text-align:center"  class="dots_dots">
+  <span class="dots"></span> 
+  <span class="dots"></span> 
+  <span class="dots"></span> 
+  <span class="dots"></span> 
+  <span class="dots"></span> 
+</div>
+
+</div>
+</div>
+
+
+
+
+<p id="achievement_achievement"></p>
+<div class="fivth_page">
+
+<div class="achievement_heading">Achievements</div>
+
+<div class="fivth_page_bigbox">
+
+<div class="bigbox_nineboxes">
+
+<div class="first_threeboxes">
+<div class="box_box_matter">Successfully conducted over 500 comprehensive penetration tests for diverse clients, including financial institutions, healthcare organizations, government agencies, and technology companies.
+</div>
+<div class="box_box_img"><img class="box_images" src="bx3.jpg"></div>
+<div class="box_box_matter">Identified and neutralized critical security vulnerabilities that had the potential to compromise sensitive data and cripple the operations of several high-profile clients.
+</div>
+</div>
+
+
+<div class="first_threeboxes">
+<div class="box_box_img"><img class="box_images" src="services2.jpg"></div>
+<div class="box_box_matter"> Earned accolades from clients for our exceptional ability to replicate real-world cyberattacks and provide actionable recommendations to bolster their security infrastructure.
+</div>
+<div class="box_box_img"><img class="box_images" src="bx2.jpg"></div>
+</div>
+
+
+<div class="first_threeboxes">
+<div class="box_box_matter">Consistently achieved a remarkable success rate in simulating sophisticated attack scenarios, ensuring our clients' digital assets remain fortified against the most advanced threats.
+</div>
+<div class="box_box_img"><img class="box_images" src="bx4.jpg"></div>
+<div class="box_box_matter">Collaborated with top cybersecurity researchers and experts to develop innovative methodologies and tools that enhance the effectiveness and efficiency of our penetration testing services.
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 4000); // Change image every 2 seconds
+}
+
+
+let slideIndexx = 0;
+showSlideschoose();
+
+function showSlideschoose() {
+  let i;
+  let slides = document.getElementsByClassName("Fourth_page_matter");
+  let dots = document.getElementsByClassName("dots");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndexx++;
+  if (slideIndexx > slides.length) {slideIndexx = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndexx-1].style.display = "block";  
+  dots[slideIndexx-1].className += " active";
+  setTimeout(showSlideschoose, 5000); // Change image every 2 seconds
+}
+
+
+
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+
+window.onclick = function(event) {
+  if (!event.target.matches('.menu_bar_option')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+<style>
+
+body ,html{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Nanum Gothic", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/*.main{
+    width: 100%;
+    height: 570px;
+    background-color: black;
+}*/
+
+.main{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    margin-top: 99px;
+}
+
+.text{
+    text-align: center;
+    color: white;
+}
+
+.p1{
+    font-size: xx-large;
+}
+
+
+/*.nav{
+    width: 100%;
+    height: 80px;
+}*/
+
+.nav {
+    width: 100%;
+    height: 99px;
+    position: fixed;
+    background-color: #e2ffd7;
+    margin-top: -99px;
+}
+
+.logo{
+    color: rgb(99 198 0);
+    margin-left: 12%;
+    line-height: 58px;
+}
+
+.li .ul1{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    margin-right: 12%;
+    margin-top: -56px;
+    font-size: smaller;
+}
+
+.li1{
+    margin-right: 2%;
+}
+
+.ul1 :hover{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    box-shadow: 2px 2px 2px black ;
+    transition: .2s ease-out;
+}
+
+.p2{
+    font-size: small;
+    margin-top: -25px;
+    color: rgb(191, 189, 189);
+}
+
+.i1{
+    margin-top: 52px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.b1{
+    width: 7.5%;
+    height: 25px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    margin: 1%;
+    font-size: .9vw;
+}
+
+.b1:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 3px 3px 5px rgb(99 198 0);
+    transition: .2s ease-in-out;
+}
+
+.d1{
+    width: 100%;
+    height: auto;
+    margin-top: -5px;
+    text-align: center;
+}
+
+.d1 img{
+    margin-left: -35%;
+    margin-top: 30px;
+}
+
+.s1 {
+    color: rgb(99 198 0);
+}
+
+.p11{
+    font-size: 1.1vw;
+}
+
+.t1{
+    text-align: start;
+    margin-top: -200px;
+    margin-left: 48%;
+    font-weight: 500;
+}
+
+.d2{
+    width: 100%;
+    height: auto;
+    margin-top: -5px;
+    text-align: center;
+}
+
+.d2 img{
+    margin-left: 40%;
+    margin-top: -140px;
+}
+
+
+.p12{
+    font-size: 1.1vw;
+}
+
+.t2{
+    text-align: start;
+    margin-top: 170px;
+    margin-left: 12%;
+    font-weight: 500;
+}
+
+.d3{
+    width: 100%;
+    height: auto;
+    margin-top: -5px;
+    text-align: center;
+}
+
+.d3 img{
+    margin-left: -35%;
+    margin-top: 120px;
+}
+
+
+.p13{
+    font-size: 1.1vw;
+}
+
+.t3{
+    text-align: start;
+    margin-top: -145px;
+    margin-left: 51.5%;
+    font-weight: 500;
+}
+
+.d4{
+    width: 100%;
+    height: auto;
+    margin-top: -5px;
+    text-align: center;
+}
+
+.d4 img{
+    margin-left: 40%;
+    margin-top: -140px;
+}
+
+
+.p14{
+    font-size: 1.1vw;
+}
+
+.t4{
+    text-align: start;
+    margin-top: 170px;
+    margin-left: 12%;
+    font-weight: 500;
+}
+
+.d5{
+    width: 100%;
+    height: auto;
+    margin-top: -5px;
+    text-align: center;
+}
+
+.d5 img{
+    margin-left: -35%;
+    margin-top: 120px;
+}
+
+
+.p15{
+    font-size: 1.1vw;
+}
+
+.t5{
+    text-align: start;
+    margin-top: -145px;
+    margin-left: 51.5%;
+    font-weight: 500;
+}
+
+.d6{
+    width: 100%;
+    height: 500px;
+    margin-top: -5px;
+    padding-top: 100px
+}
+
+.d6 h1{
+    text-align: center;
+}
+
+.d61{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#t61{
+    width: 22%;
+    height: 160px;
+    font-weight: 500;
+
+}
+
+#t62{
+    width: 22%;
+    height: 160px;
+    font-weight: 500;
+}
+
+#t63{
+    width: 22%;
+    height: 160px;
+    font-weight: 500;
+}
+
+.p16{
+    font-size: 1vw;
+    color: rgb(104, 104, 104);
+}
+
+.flex0{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex1{
+    width: 22%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    margin-top: -20px;
+    padding-top: 3%;
+}
+
+.p17{
+    background-color: rgb(236 236 236);
+    font-size: .9vw;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+.d7{
+    width: 100%;
+    height: 550px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.d7 span{
+    font-size: 1vw;
+    color:  rgb(99 198 0);
+    font-weight: 500;
+}
+
+.d7 h2{
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+.d8{
+    width: 100%;
+    height: 400px;
+}
+
+.d8 h2{
+    margin-left: 19%;
+}
+
+.flex3{
+    width: 62%;
+    height: 41px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-left: 19%;
+    align-items: flex-start;
+}
+
+.p18{
+    font-size: .9vw;
+    margin-bottom: 0px;
+    font-weight: 500;
+    color: rgb(104, 104, 104);
+}
+
+.d9{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+
+.d9 span{
+    font-size: 1vw;
+    color:  rgb(99 198 0);
+    font-weight: 500;
+}
+
+.d9 h2{
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+.p19{
+    font-size: 1vw;
+    margin-bottom: 0px;
+    font-weight: 500;
+    color: rgb(104, 104, 104);
+}
+
+.b2{
+    width: 7.5%;
+    height: 35px;
+    border: 1px solid rgb(99 198 0);
+    background-color: rgb(255, 255, 255);
+    color: rgb(99 198 0);
+    border-radius: 4px;
+    margin: 1%;
+    font-size: .9vw;
+}
+
+.b2:hover{
+    background-color: rgb(99 198 0);
+    color: black;
+    box-shadow: 3px 3px 7px black;
+    transition: .2s ease-in-out;
+}
+
+.d10{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: -35px;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.flex4{
+    width: 50%;
+    height: auto;
+    font-size: 1vw;
+    margin-bottom: 0px;
+    font-weight: 500;
+    color: rgb(104, 104, 104);
+    background-color: rgb(236 236 236);
+    text-align: start;
+    margin-left: 24%;
+    padding: 1%;
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+
+.b3{
+    background-color: rgb(236 236 236);
+    border: none;
+    margin: 1%;
+    font-size: 1vw;
+    font-weight: 500;
+    float: right;
+}
+
+.d11{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: #4f7f12;
+}
+
+iframe{
+    margin-top: -360px;
+    margin-right: 15%;
+    float: right;
+}
+
+.cont{
+    width: 13%;
+    height: 156px;
+    text-align: start;
+    padding: 12.8%;
+}
+
+.cont span{
+    font-size: 1vw;
+    color:  rgb(255, 255, 255);
+    font-weight: 300;
+}
+
+.cont h2{
+    font-weight: 400;
+    margin-top: 0px;
+    color: white;
+    line-height: normal;
+}
+
+.followus{
+    width: 100%;
+    height: 138px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -22px;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.flex5{
+    width: 25%;
+    height: 100px;
+    color: rgb(255, 255, 255);
+}
+
+.flex5 span{
+    font-size: 1vw;
+    font-weight: 300;
+}
+
+#p21{
+    display: none;
+}
+
+#p22{
+    display: none;
+}
+
+#p23{
+    display: none;
+}
+
+#p24{
+    display: none;
+}
+
+hr{
+    height: 15px;
+    margin-top: -4px;
+}
+
+.d1,.d2,.d3,.d4,.d5 small{
+    font-size: 2.2vw;
+}
+
+@media only screen and (max-width: 440px){
+    .nav{
+        height: auto;
+        position: absolute;
+    }
+
+    .logo{
+        text-align: center;
+        margin-left: 0%;
+        margin-top: -3%;
+    }
+
+    .li1 {
+        width: 20%;
+        display: block;
+        margin: 3% auto;
+    }
+
+    .li .ul1{
+        margin-top: -23px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .ul1 :hover{
+        box-shadow: 1px 1px 6px black;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .main{
+        padding-top: 80px;
+    }
+
+    .b1{
+        font-size: 2vw;
+        width: 15.5%;
+    }
+
+    .i1{
+        width: 65%;
+    }
+
+    .d1 img {
+        margin-left: 0%;
+        margin-top: 0px;
+    }
+
+    .t1 {
+        text-align: start;
+        margin-top: 0px !important;
+        margin-left: 33%;
+        font-weight: 600;
+    }
+    .d2 img {
+        margin-left: 0%;
+        margin-top: -145px;
+        padding-bottom: 100px;
+    }
+    .t2 {
+        margin-top: 64px;
+        margin-left: 33%;
+        font-weight: 600;
+        padding-top: 42px;
+    }
+
+    .d3 img {
+        margin-left: auto;
+        margin-top: -64px;
+    }
+
+    .t3 {
+        margin-top: 10px !important;
+        margin-left: 33%;
+        font-weight: 600;
+    }
+
+    .d4 img {
+        margin-left: 0%;
+        margin-top: -145px;
+        padding-bottom: 100px;
+    }
+    .t4 {
+        margin-top: 64px;
+        margin-left: 33%;
+        font-weight: 600;
+        padding-top: 42px;
+    }
+
+    .d5 img {
+        margin-left: auto;
+        margin-top: -64px;
+    }
+
+    .t5 {
+        margin-top: 10px !important;
+        margin-left: 33%;
+        font-weight: 600;
+    }
+
+    .d6 {
+        width: 100%;
+        height: auto;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    .d61 {
+        width: 32%;
+        flex-direction: column;
+        margin-left: 15%;
+    }
+
+    #t61 {
+        width: 100%;
+        height: 150px;
+        font-weight: 600;
+    }
+    #t62 {
+        width: 100%;
+        height: 150px;
+        font-weight: 600;
+    }
+    #t63 {
+        width: 100%;
+        height: 150px;
+        font-weight: 600;
+    }
+
+    .flex0 {
+        width: 22%;
+        flex-direction: column;
+        margin-left: 57%;
+        margin-top: -450px;
+    }
+
+    .flex1 {
+        width: 100%;
+        height: 120px;
+        margin-bottom: 46px;
+        padding-top: 0%;
+    }
+
+    .p16 {
+        font-size: 1.6vw;
+    }
+
+    .p117{
+        font-size: 1vw;
+    }
+
+    .d7 {
+        height: auto;
+        padding-top: 0px;
+    }
+
+    .d7 span {
+        font-size: 2vw;
+        font-weight: 600;
+    }
+
+    .p18 {
+        font-size: 1.6vw;
+        font-weight: 600;
+        color: rgb(0 0 0);
+    }
+
+    .d9 span {
+        font-size: 2vw;
+        font-weight: 600;
+    }
+
+    .p19 {
+        font-size: 2vw;
+        font-weight: 600;
+        color: rgb(0 0 0);
+        margin-top: -15px;
+    }
+
+    .b2 {
+        width: 15%;
+        font-size: 2vw;
+        margin-top: 20px;
+        margin-bottom: -11px;
+    }
+
+    .d10{
+        margin-top: -80px;
+    }
+
+    .flex4 {
+        font-size: 2vw;
+        font-weight: 600;
+        color: rgb(0 0 0);
+    }
+
+    .b3 {
+        font-size: 2vw;
+        font-weight: 900;
+    }
+
+    iframe {
+        margin-top: -200px;
+        height: 150px;
+    }
+
+    .cont {
+        width: 30%;
+    }
+
+    .cont span {
+        font-size: 2vw;
+        font-weight: 500;
+    }
+
+    .flex5 span {
+        font-size: 2vw;
+        font-weight: 500;
+    }
+
+    .fa{
+        font-size: 3.2vw !important;
+    }
+
+}
+
+@media only screen and (max-width: 850px){
+
+    iframe{
+        margin-top: -250px;
+        height: 200px;
+    }
+
+}
+
+@media only screen and (max-width: 750px){
+
+    .t1{
+        margin-top: -140px;
+    }
+
+    .t3{
+        margin-top: -100px;
+    }
+
+    .t5{
+        margin-top: -80px;
+    }
+
+}
+
+@media only screen and (max-width: 540px){
+
+.t1{
+    margin-top: -120px;
+}
+
+.t3{
+    margin-top: -80px;
+}
+
+.t5{
+    margin-top: -60px;
+}
+
+}
+
+</style>
+
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">
+            <h3>TechoClouds</h3>
+        </div>
+        <div class="li">
+            <ul class="ul1">
+                <li class="li1">Home</li>
+                <li class="li1">Services</li>
+                <li class="li1">About us</li>
+                <li class="li1">Contact</li>
+            </ul>
+        </div>
+    </div>
+    <div class="main">
+        <div class="text"><br>
+            <p class="p1">Welcome to TechoClouds</p>
+            <p class="p2">Your Trusted Partners in DevOps and SRE</p>
+            <button class="b1">Contact Us</button><button class="b1">Learn More</button><br>
+            <img src="a.jpg" alt="" class="i1" width="50%" height="50%">
+        </div>
+    </div>
+    <hr width="100%" color="white">
+    <div class="d1"><br>
+        <small class="s1">Why Choose TechoClouds ?</small><br>
+        <h2>Our Key Features</h2>
+        <img src="a.png" alt="" height="60%" width="20%">
+        <div class="t1">
+        <small>Expertise in DevOps</small>
+        <p class="p11">Our team of seasoned experts has extensive knowledge and experience <br>in the field of DevOps, ensuring that we can provide top-notch solutions <br> and consultancy services.</p>
+        </div>
+        
+    </div><br>
+    <div class="d2"><br>
+        <div class="t2">
+        <small>Site Reliability Engineering (SRE)</small>
+        <p class="p12">We specialize in Site Reliability Engineering (SRE) and can help you<br>optimize your systems for reliability, scalability, and performance.</p>
+        </div>
+        <img src="b.png" alt="" height="46%" width="30%">
+    </div><br>
+    <div class="d3"><br>
+        <img src="c.png" alt="" height="46%" width="30%">
+        <div class="t3">
+        <small>AWS Solutions</small>
+        <p class="p13">As an AWS partner, we have the expertise to design and implement <br>
+        robust AWS infrastructure that meets your specific requirements.</p>
+        </div>
+    </div><br>
+    <div class="d4"><br>
+        <div class="t4">
+        <small>Consultancy Services</small>
+        <p class="p14">Our consultancy services are designed to drive success and innovation,<br>helping you achieve your goals and stay ahead in the competitive market.</p>
+        </div>
+        <img src="d.png" alt="" height="46%" width="30%">
+    </div><br>
+    <div class="d5"><br>
+        <img src="e.png" alt="" height="46%" width="30%">
+        <div class="t5">
+        <small>Training Programs</small>
+        <p class="p15">We offer training programs that empower individuals and teams with the <br>
+        skills and knowledge needed to excel in the world of DevOps and SRE.</p>
+        </div>
+    </div>
+    <div class="d6">
+        <h1>Our Services</h1><br>
+        <div class="d61">
+        <div class="t6" id="t61">
+        <small>DevOps Consultancy</small>
+        <p class="p16">Our DevOps consultancy services help organizations optimize their software delivery processes and improve collaboration between development and operations teams. We provide guidance on implementing DevOps best practices, tools, and automation to streamline the software development lifecycle.</p>
+        </div>
+        <div class="t6" id="t62">
+        <small>Site Reliability Engineering (SRE)</small>
+        <p class="p16"> Our Site Reliability Engineering (SRE) services focus on ensuring the reliability, scalability, and performance of your applications and Infrastructure. We help organizations Implement SRE principles and practices to minimize downtime, improve incident response, and enhance overall system reliability.</p>
+        </div>
+        <div class="t6" id="t63">
+        <small>AWS Solutions</small>
+        <p class="p16"> As an AWS Partner, we offer a wide range of AWS solutions to help organizations leverage the power of cloud computing. From designing and Implementing scalable and secure AWS architectures to optimizing cost and performance, we provide end-to-end AWS services tailored to your specific needs.</p>
+        </div>
+        </div><br>
+        <div class="flex0">
+            <div class="flex1">
+                <div class="flex21"><p class="p17">- Assessment and analysis of existing processes</p></div>
+                <div class="flex21"><p class="p17">- Design and implementation of DevOps pipelines</p></div>
+                <div class="flex21"><p class="p17">- Continuous integration and continuous deployment (CI/CD)</p></div>
+                <div class="flex21"><p class="p17">- Infrastructure as code (laC) implementation</p></div>
+                <div class="flex21"><p class="p17">- Monitoring and alerting solutions</p></div>
+            </div>
+            <div class="flex1">
+                <div class="flex22"><p class="p17">- Service level objective (SLO) and service level agreement (SLA) definition</p></div>
+                <div class="flex22"><p class="p17">- Incident management and post-incident analysis</p></div>
+                <div class="flex22"><p class="p17">- Capacity planning and performance optimization</p></div>
+                <div class="flex22"><p class="p17">- Automated incident response and remediation</p></div>
+                <div class="flex22"><p class="p17">- Chaos engineering and resilience testing</p></div>
+            </div>
+            <div class="flex1">
+                <div class="flex23"><p class="p17">- AWS architecture design and implementation</p></div>
+                <div class="flex23"><p class="p17">- Migration to AWS cloud</p></div>
+                <div class="flex23"><p class="p17">- Cost optimization and resource management</p></div>
+                <div class="flex23"><p class="p17">- Security and compliance</p></div>
+                <div class="flex23"><p class="p17">- AWS infrastructure automation</p></div>
+            </div>
+        </div>
+    </div>
+    <div class="d7">
+        <span>We have partnered with industry-leading brands to deliver exceptional DevOps and SRE solutions.</span>
+        <h2>Trusted by Top Brands</h2>
+        <img src="f.png" alt="" width="55%" height="22%"><br><br>
+        <span>What our clients say about us.</span>
+        <h2>Client Testimonials</h2>
+        <img src="g.png" alt="" width="70%" height="37%">
+    </div>
+    <div class="d8">
+        <h2>Why Choose TechoClouds</h2>
+        <div class="flex3"><p class="p18">At TechoClouds, we are committed to providing top-notch DevOps, Site Reliability Engineering (SRE), and AWS solutions. Here's why you should choose us</p></div>
+        <div class="flex3"><p class="p18">1. Expertise: Our team consists of seasoned professionals with extensive experience in the field of DevOps and SRE. We have the knowledge and skills to deliver exceptional results.</p></div>
+        <div class="flex3"><p class="p18">2. Proven Track Record: We have a track record of success, with numerous satisfied clients who have achieved their goals with our assistance.</p></div>
+        <div class="flex3"><p class="p18">3. Consultancy Services: We offer consultancy services that are tailored to your specific needs. Whether you need assistance with infrastructure design, automation, or performance optimization, we have you covered.</div>
+        <div class="flex3"><p class="p18">4. Training Programs: We believe in empowering individuals and teams with the skills they need to excel in DevOps and SRE. Our training programs are designed to enhance your capabilities and drive innovation.</p></p></div>
+        <div class="flex3"><p class="p18">5. Future-Ready Solutions: We stay up-to-date with the latest industry trends and technologies, ensuring that our solutions are future-ready. We help you build robust AWS Infrastructure that can scale and adapt to your evolving needs.</p></div>
+        <div class="flex3"><p class="p18">6. Commitment to Success: Your success is our priority. We are dedicated to providing exceptional service and support, working closely with you to achieve your goals.</p></div>
+        <div class="flex3"><p class="p18">Choose TechoClouds as your trusted partner in DevOps and SRE, and embark transformative journey towards excellence.</p></div>
+    </div>
+    <div class="d9">
+        <span>Start your journey towards DevOps and SRE excellence</span>
+        <h2>Get Started Today</h2>
+        <p class="p19">Unlock the full potential of your software delivery with our expert guidance and training programs. Join us now and take the first step <br> towards a successful DevOps and SRE transformation.</p>
+        <button class="b2">Contact Us</button><button class="b2">Learn More</button><br><br>
+        <span>Find answers to common questions</span>
+        <h2>Frequently Asked Questions</h2>
+    </div>
+    <div class="d10">
+        <div class="flex4">What is DevOps?<button class="b3" id="btn1" onclick="openPara()">&gt</button><p id="p21">DevOps is a set of practices that combines software development (Dev) and IT operations (Ops) to shorten the systems development life cycle while delivering features, fixes, and updates frequently in close alignment with business objectives.</p></div>
+        <div class="flex4">What is Site Reliability Engineering (SRE)?<button class="b3" id="btn2" onclick="openPara2()">&gt</button><p id="p22">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas facilis voluptas accusantium blanditiis aut exercitationem cumque, et, minus, nulla labore rerum sint adipisci enim. Numquam totam nulla at voluptatum illo, vel unde velit quae hic tempora debitis. Sit, quas unde!</p></div>
+        <div class="flex4">Why is AWS important for DevOps and SRE?<button class="b3" id="btn3" onclick="openPara3()">&gt</button><p id="p23">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas facilis voluptas accusantium blanditiis aut exercitationem cumque, et, minus, nulla labore rerum sint adipisci enim. Numquam totam nulla at voluptatum illo, vel unde velit quae hic tempora debitis. Sit, quas unde!</p></div>
+        <div class="flex4">What services does TechoClouds offer?<button class="b3" id="btn4" onclick="openPara4()">&gt</button><p id="p24">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas facilis voluptas accusantium blanditiis aut exercitationem cumque, et, minus, nulla labore rerum sint adipisci enim. Numquam totam nulla at voluptatum illo, vel unde velit quae hic tempora debitis. Sit, quas unde!</p></div>
+    </div>
+    <div class="d11">
+        <div class="cont">
+        <span>Get in touch with us</span>
+        <h2>Contact Us</h2>
+        <span><i style='font-size:1.5vw' class='fa'>&#xf041;</i> Ludhiana , India</span><br>
+        <span><i style="font-size:1.5vw" class="fa">&#xf095;</i> 9888948048</span><br>
+        <span><i style='font-size:1.3vw' class='fa'>&#xf0e0;</i> info@techoclouds.com</span>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d219104.92519105758!2d75.69220363579014!3d30.900241179922116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a837462345a7d%3A0x681102348ec60610!2sLudhiana%2C%20Punjab!5e0!3m2!1sen!2sin!4v1700726180671!5m2!1sen!2sin" width="40%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+        <div class="followus">
+            <div class="flex5">
+                <small>TechoClouds</small><br>
+                <span>Ludhiana, India</span>
+            </div>
+            <div class="flex5">
+                <small>Quick Links</small><br>
+                <span>Contact Services Home About Us</span><br><br>
+                <span>2022 TechoClouds. All rights reserved.</span>
+            </div>
+            <div class="flex5">
+                <small>Follow us on</small><br>
+                <i style='font-size:1.5vw' class='fa'>&#xf082;</i> <i style='font-size:1.5vw' class='fa'>&#xf099;</i> in <i style='font-size:1.5vw' class='fa'>&#xf1a1;</i>
+            </div>
+        </div>
+    </div>
+    <script>
+        function openPara()
+            {
+                var prg = document.getElementById("p21");
+                prg.style.display = (prg.style.display === 'block') ? 'none' : 'block';
+                var btn = document.getElementById("btn1");
+                btn.style.transform =(btn.style.transform === 'rotate(90deg)') ? 'rotate(0deg)': 'rotate(90deg)';
+                btn.style.transition='.25s';
+            }
+            window.onclick = function(event) {
+            if (!event.target.matches('.d10 button')) {
+            var prg = document.getElementById("p21");
+            if (prg.style.display === 'block') {
+            prg.style.display = 'none';
+                    }
+                }
+            }
+        
+        function openPara2()
+            {
+                var prg = document.getElementById("p22");
+                prg.style.display = (prg.style.display === 'block') ? 'none' : 'block';
+                var btn = document.getElementById("btn2");
+                btn.style.transform =(btn.style.transform === 'rotate(90deg)') ? 'rotate(0deg)': 'rotate(90deg)';
+                btn.style.transition='.25s';
+            }
+            window.onclick = function(event) {
+            if (!event.target.matches('.d10 button')) {
+            var prg = document.getElementById("p22");
+            if (prg.style.display === 'block') {
+            prg.style.display = 'none';
+                    }
+                }
+            }
+        function openPara3()
+            {
+                var prg = document.getElementById("p23");
+                prg.style.display = (prg.style.display === 'block') ? 'none' : 'block';
+                var btn = document.getElementById("btn3");
+                btn.style.transform =(btn.style.transform === 'rotate(90deg)') ? 'rotate(0deg)': 'rotate(90deg)';
+                btn.style.transition='.25s';
+            }
+            window.onclick = function(event) {
+            if (!event.target.matches('.d10 button')) {
+            var prg = document.getElementById("p23");
+            if (prg.style.display === 'block') {
+            prg.style.display = 'none';
+                    }
+                }
+            }
+        function openPara4()
+            {
+                var prg = document.getElementById("p24");
+                prg.style.display = (prg.style.display === 'block') ? 'none' : 'block';
+                var btn = document.getElementById("btn4");
+                btn.style.transform =(btn.style.transform === 'rotate(90deg)') ? 'rotate(0deg)': 'rotate(90deg)';
+                btn.style.transition='.25s';
+            }
+            window.onclick = function(event) {
+            if (!event.target.matches('.d10 button')) {
+            var prg = document.getElementById("p24");
+            if (prg.style.display === 'block') {
+            prg.style.display = 'none';
+                    }
+                }
+            }
+
+            
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body, html{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ebe6cb;
+}
+.container{
+    height: 50vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4;
+    background-color: #ffffff;
+    padding: 2vh;
+    border-radius: 1vh;
+    margin-top: 5vh;
+    font-size: large;
+}
+.dropdown{
+    padding: 2vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2vh;
+}
+.from,.to,.amount{
+    text-align: center;
+}
+.select{
+    width: 8vw;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1vh;
+    border: 1px solid rgba(128, 128, 128, 0.564);
+    border-radius: 1vh;
+}
+select{
+    width: 4vw;
+    border: none;
+    font-size: 1.5vh;
+    outline: none;
+}
+input{
+    border: 1px solid rgba(128, 128, 128, 0.564);
+    outline: none;
+    border-radius: .5vh;
+    padding: 1vh;
+    font-size: 1vw;
+    text-align: center;
+    margin-top: 1vh;
+}
+button{
+    border: none;
+    font-size: 1vw;
+    cursor: pointer;
+    color: white;
+    background-color: #776c9a;
+    border-radius: .5vh;
+    transition: .2s all ease-in-out;
+    padding: 1vh;
+    &:hover{
+        transform: scale(1.1);
+        color: #776c9a;
+        background-color: white;
+        border: 1px solid #776c9a;
+    }
+}
+img{
+    max-width: 1.6rem;
+}
+
+
